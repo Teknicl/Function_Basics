@@ -32,15 +32,15 @@ print(x)
 # The answer is 5
 
 #6
-def add(b,c):
-    print(b+c)
-print(add(1,2) + add(2,3))
+def add(b, c):
+    return(b + c)
+print(add(1, 2) + add(2, 3))
 # The answer is 8
 
 #7
-def concatenate(b,c):
-    return str(b)+str(c)
-print(concatenate(2,5))
+def concatenate(b, c):
+    return str(b) + str(c)
+print(concatenate(2, 5))
 # The answer is 7
 
 #8
@@ -56,22 +56,22 @@ print(number_of_oceans_or_fingers_or_continents())
 # The answer is 10
 
 #9
-def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
+def number_of_days_in_a_week_silicon_or_triangle_sides(b,c ):
     if b<c:
         return 7
     else:
         return 14
     return 3
-print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
-print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+print(number_of_days_in_a_week_silicon_or_triangle_sides(2, 3))
+print(number_of_days_in_a_week_silicon_or_triangle_sides(5, 3))
+print(number_of_days_in_a_week_silicon_or_triangle_sides(2, 3) + number_of_days_in_a_week_silicon_or_triangle_sides(5, 3))
 # The answer is 7, 14, 7
 
 #10
-def addition(b,c):
-    return b+c
+def addition(b, c):
+    return b + c
     return 10
-print(addition(3,5))
+print(addition(3, 5))
 # The answer is 8
 
 #11
