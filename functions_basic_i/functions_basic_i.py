@@ -29,9 +29,7 @@ def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
 print(x)
-# The answer is:
-#5
-#Non3
+# The answer is: 5
 
 #6
 def add(b, c):
@@ -56,12 +54,11 @@ def number_of_oceans_or_fingers_or_continents():
     return 7
 print(number_of_oceans_or_fingers_or_continents())
 # The answer is:
-#100
-#10
+#100, 10
 
 #9
-def number_of_days_in_a_week_silicon_or_triangle_sides(b,c ):
-    if b<c:
+def number_of_days_in_a_week_silicon_or_triangle_sides(b, c ):
+    if b <c:
         return 7
     else:
         return 14
@@ -69,7 +66,7 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c ):
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2, 3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5, 3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2, 3) + number_of_days_in_a_week_silicon_or_triangle_sides(5, 3))
-# The answer is 7, 14, 7
+# The answer is 7, 14, 21
 
 #10
 def addition(b, c):
@@ -99,7 +96,7 @@ def foobar():
 print(b)
 foobar()
 print(b)
-# The answer is 500, 500
+# The answer is 500, 500, 300, 500
 
 #13
 b = 500
@@ -109,9 +106,9 @@ def foobar():
     print(b)
     return b
 print(b)
-b=foobar()
+b = foobar()
 print(b)
-# The answer is 500, 500, 300
+# The answer is 500, 500, 300, 300
 
 #14
 def foo():
@@ -134,4 +131,4 @@ def bar():
     return 5
 y = foo()
 print(y)
-# The answer is 5
+# The answer is 1, 3, 5, 10
