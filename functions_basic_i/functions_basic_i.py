@@ -29,7 +29,9 @@ def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
 print(x)
-# The answer is 5
+# The answer is:
+#5
+#Non3
 
 #6
 def add(b, c):
@@ -41,7 +43,7 @@ print(add(1, 2) + add(2, 3))
 def concatenate(b, c):
     return str(b) + str(c)
 print(concatenate(2, 5))
-# The answer is 7
+# The answer is 25
 
 #8
 def number_of_oceans_or_fingers_or_continents():
@@ -53,7 +55,9 @@ def number_of_oceans_or_fingers_or_continents():
         return 10
     return 7
 print(number_of_oceans_or_fingers_or_continents())
-# The answer is 10
+# The answer is:
+#100
+#10
 
 #9
 def number_of_days_in_a_week_silicon_or_triangle_sides(b,c ):
